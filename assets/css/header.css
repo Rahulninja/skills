@@ -1,0 +1,75 @@
+html{
+    background-color: rgb(123, 211, 238);
+    color:white;
+   
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    border-bottom: 1px solid rgb(198, 114, 150);
+    background-color: rgb(241, 118, 161);
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+    
+    
+}
+
+
+
+
+
+.fav{
+    margin-block: auto;
+}
+
+.fav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    word-spacing: 10px;
+    margin-right: 10px;
+} 
+.head-title a{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.head-title  a {
+    text-decoration: none;
+    font-size: 30px;
+    
+
+}
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#dislike{
+    color: gray;
+}
+
+#like-button{
+    color: rgb(255, 102, 102);
+}
+
+.bg-img{
+    width: 70%;
+    min-width: 600px;
+     height: auto;
+    position: fixed;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
